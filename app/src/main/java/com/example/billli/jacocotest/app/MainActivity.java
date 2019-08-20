@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.Btn2:
                 Toast.makeText(this, "点击了第二个按钮", Toast.LENGTH_SHORT).show();
                 B.setText("点击了第二个按钮");
+                A.setText("点击了第一个按钮");
                 Toast.makeText(this,"测试一下",Toast.LENGTH_SHORT).show();
                 if (easterEgg == true)
                 {
