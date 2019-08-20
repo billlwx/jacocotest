@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     B.setText("恭喜进入彩蛋");
                 }
                 break;
+            // 'test'
             case R.id.Btn3:
                 Toast.makeText(this,"点击了第三个按钮",Toast.LENGTH_SHORT).show();
                 jacocoInstrumentation.UsegenerateCoverageReport();
